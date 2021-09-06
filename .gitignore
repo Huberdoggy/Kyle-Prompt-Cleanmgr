@@ -1,0 +1,3 @@
+# Redirects ssh host key checking to junk file so as not to clobber .known_hosts
+# equivalent to /dev/null on 'Nix
+*deletefile*
